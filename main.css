@@ -7,14 +7,29 @@
 
 @font-face {
   font-family: "Optician Sans";
-  src: url("fonts/Optician-Sans.otf");
+  src: url("fonts/Optician-Sans.otf") format('opentype')
 }
 
 @font-face {
   font-family: "Ortica Light";
-  src: url("fonts/Ortica-Light.otf");
+  src: url("fonts/Ortica-Light.otf") format('opentype')
 }
   
+@font-face {
+  font-family: "DINAlternateBold";
+  src: url('fonts/DINAlternateBold.otf') format('opentype')
+}
+
+@font-face {
+  font-family: "Louis George Cafe";
+  font-style: normal;
+  src: url('fonts/LouisGeorgeCafe.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url('fonts/Roboto-Bold.ttf') format('truetype')
+}
 
 .homepage__center {
   display: flex;
@@ -53,14 +68,14 @@ nav {
   display: flex;
   font-size: 1.75rem;
   align-content: center;
-  font-family: "Ortica Light";
+  font-family: "Ortica Light", "Louis George Cafe", 'Times New Roman', Times, serif;
 }
 
 .about__wrap {
   margin: 0 auto;
   max-width: 800px;
   font-size: 1.2rem;
-  font-family: "Optician Sans";
+  font-family: "Optician Sans", "DINAlternateBold", "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .about__content {
@@ -71,7 +86,7 @@ nav {
 
 .main__name {
   margin: 0 auto;
-  font-family: "Optician Sans";
+  font-family: "Optician Sans", "DINAlternateBold", "Roboto", Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -96,7 +111,7 @@ hr {
 }
 
 .main__subtext {
-  font-family: "Ortica Light";
+  font-family: "Ortica Light", "Louis George Cafe", 'Times New Roman', Times, serif;
 }
 
 .port__content {
@@ -104,18 +119,18 @@ hr {
   font-size: 1.2rem;
   margin: auto;
   max-width: 800px;
-  font-family: "Optician Sans";
+  font-family: "Optician Sans", "DINAlternateBold", "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .port__content p {
-  font-family: "Ortica Light";
+  font-family: "Ortica Light", "Louis George Cafe", 'Times New Roman', Times, serif;
 }
 
 .port__wrapper {
   margin: 0 auto;
   max-width: 800px;
   font-size: 1rem;
-  font-family: "Optician Sans";
+  font-family: "Optician Sans", "DINAlternateBold", "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .port__card {
@@ -131,7 +146,7 @@ hr {
 
 .aboutme__text {
   padding: 0 1.25rem;
-  font-family: "Ortica Light";
+  font-family: "Ortica Light", "Louis George Cafe", 'Times New Roman', Times, serif;
 }
 
 .aboutme__text p {
@@ -210,13 +225,13 @@ hr {
   margin: 0 auto;
   max-width: 800px;
   font-size: 1.2rem;
-  font-family: "Ortica Light";
+  font-family: "Ortica Light", "Louis George Cafe", 'Times New Roman', Times, serif;
 }
 
 
 .resume__wrapper h1 {
   margin: auto;
-  font-family: "Optician Sans";
+  font-family: "Optician Sans", "DINAlternateBold", "Roboto", Arial, Helvetica, sans-serif;
   text-align: center;
 }
 
@@ -230,12 +245,12 @@ hr {
 
 .resume h3 {
   padding: 0.75rem 0;
-  font-family: "Optician Sans";
+  font-family: "Optician Sans", "DINAlternateBold", "Roboto", Arial, Helvetica, sans-serif;
 }
 
 .resume ul {
   list-style-type: none;
-  font-family: "Ortica Light";
+  font-family: "Ortica Light", "Louis George Cafe", 'Times New Roman', Times, serif;
 }
 
 #xp {
@@ -261,18 +276,18 @@ hr {
   padding: 0 2.5rem;
   margin: 0 auto;
   font-size: 1.2rem;
-  font-family: "Ortica Light";
+  font-family: "Ortica Light", "Louis George Cafe", 'Times New Roman', Times, serif;
 }
 
 .casestudy__content h1 {
   text-align: center;
-  font-family: "Optician Sans";
+  font-family: "Optician Sans", "DINAlternateBold", "Roboto", Arial, Helvetica, sans-serif;
   padding: 0;
   margin: 0;
 }
 
 .casestudy__content h3 {
-  font-family: "Optician Sans";
+  font-family: "Optician Sans", "DINAlternateBold", "Roboto", Arial, Helvetica, sans-serif;
   font-size: 1.7rem;
 }
 
