@@ -1,0 +1,296 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.06rem;
+}
+
+@font-face {
+  font-family: "Optician Sans";
+  src: url("fonts/Optician-Sans.otf");
+}
+
+@font-face {
+  font-family: "Ortica Light";
+  src: url("fonts/Ortica-Light.otf");
+}
+  
+
+.homepage__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.homepage__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 75%;
+  flex-flow: column nowrap;
+}
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  border-bottom: 1px solid lightslategray;
+  margin-bottom: 1rem;
+  max-width: 75%;
+  margin: 1rem auto;
+}
+
+.nav__items ul {
+  margin: 0.5rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: flex-end;
+  list-style-type: none;
+}
+
+.nav__items {
+  display: flex;
+  font-size: 1.75rem;
+  align-content: center;
+  font-family: "Ortica Light";
+}
+
+.about__wrap {
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 1.2rem;
+  font-family: "Optician Sans";
+}
+
+.about__content {
+  display: flex;
+  flex-flow: row nowrap;
+ 
+}
+
+.main__name {
+  margin: 0 auto;
+  font-family: "Optician Sans";
+}
+
+a {
+  text-decoration: none;
+  color: #3a3a3a;
+}
+
+a:hover {
+  color: #d0540c;
+}
+
+.logo {
+  padding-right: 1rem;
+}
+
+hr {
+  height: 2px;
+  width: 10rem;
+  background: #d0540c;
+  margin-bottom: 0.6rem;
+  border: 0;
+}
+
+.main__subtext {
+  font-family: "Ortica Light";
+}
+
+.port__content {
+  display: flex;
+  font-size: 1.2rem;
+  margin: auto;
+  max-width: 800px;
+  font-family: "Optician Sans";
+}
+
+.port__content p {
+  font-family: "Ortica Light";
+}
+
+.port__wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 1rem;
+  font-family: "Optician Sans";
+}
+
+.port__card {
+  width: 50%;
+  background-color: #ededed;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.page__title {
+  text-align: center;
+}
+
+.aboutme__text {
+  padding: 0 1.25rem;
+  font-family: "Ortica Light";
+}
+
+.aboutme__text p {
+  padding-bottom: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.6rem;
+}
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 720px) {
+  .main__name {
+    font-size: 2.25rem;
+  }
+  
+  .main__subtext {
+    font-size: 1.25rem;
+  }
+
+  .about__content {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+
+  .aboutme__img {
+    margin: auto;
+  }
+
+  .aboutme__text {
+    padding: 0 2.5rem;
+  }
+
+  .port__content {
+    flex-flow: column;
+    margin: auto;
+    
+  }
+
+  .port__card {
+    width: 75%;
+    margin: 1rem auto;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .main__name {
+    font-size: 3.75rem;
+  }
+  
+  .main__subtext {
+    font-size: 1.5rem;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .main__name {
+    font-size: 5rem;
+  }
+  
+  .main__subtext {
+    font-size: 2rem;
+  }
+}
+
+.resume {
+  padding: 1.5rem 2.5rem;
+  margin: 0 auto;
+}
+
+.resume__wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 1.2rem;
+  font-family: "Ortica Light";
+}
+
+
+.resume__wrapper h1 {
+  margin: auto;
+  font-family: "Optician Sans";
+  text-align: center;
+}
+
+.resume__wrapper p {
+  text-align: center;
+}
+
+.resume__list {
+  padding-left: 1.5rem;
+}
+
+.resume h3 {
+  padding: 0.75rem 0;
+  font-family: "Optician Sans";
+}
+
+.resume ul {
+  list-style-type: none;
+  font-family: "Ortica Light";
+}
+
+#xp {
+  padding-bottom: 0;
+}
+
+.job__title {
+  margin: 0.75rem 0;
+}
+
+.aboutme__img img {
+  max-width: 20rem;
+  border: 10px solid lightgray;
+}
+
+
+.navelement {
+  padding: 0.5rem;
+}
+
+.casestudy__content {
+  max-width: 800px;
+  padding: 0 2.5rem;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-family: "Ortica Light";
+}
+
+.casestudy__content h1 {
+  text-align: center;
+  font-family: "Optician Sans";
+  padding: 0;
+  margin: 0;
+}
+
+.casestudy__content h3 {
+  font-family: "Optician Sans";
+  font-size: 1.7rem;
+}
+
+.casestudy__content p {
+  padding: 1rem 0;
+}
+
+.casestudy__content figure {
+  padding: 1rem 0;
+  font-style: italic;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+
+
+
